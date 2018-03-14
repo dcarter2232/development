@@ -1,9 +1,13 @@
 # development
 Portfolio 
 
-Snake Game using Python 
-
+Simple Games 
 You can run this using Python 2.7.14 or Visual Studio 
+Dice and Snake
 
-Try to eat as many apples as possible and not run into yourself of the wall
+Web Design 
+Sites I have worked on in the past including HTML, Javascript and CSS 
+
+Graphic Design 
+Graphic work I have worked on including advertisements, flyers, pictures 
 
