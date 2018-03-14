@@ -3,7 +3,6 @@ Portfolio
 
 Simple Games 
 You can run this using Python 2.7.14 or Visual Studio 
-Dice and Snake
 
 Web Design 
 Sites I have worked on in the past including HTML, Javascript and CSS 
