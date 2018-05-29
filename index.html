@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body class='gradient'>
+  <h1>
+    <p id='title' class="transition">
+      <span class='one'>L</span>
+      <span class='two'>a</span>
+      <span class='three'>b</span>
+      <span class='four'>:</span>
+      <span class='five'> P</span>
+      <span class='six'>i</span>
+      <span class='seven'>x</span>
+      <span class='one'>e</span>
+      <span class='two'>l</span>
+      <span class='three'> A</span>
+      <span class='four'>r</span>
+      <span class='five'>t</span>
+      <span class='six'> M</span>
+      <span class='seven'>a</span>
+      <span class='one'>k</span>
+      <span class='two'>e</span>
+      <span class='three'>r</span>
+    </p>
+ </h1>
+
+    <h2 class='textOpacity'>Choose Grid Size</h2>
+    <form id="sizePicker">
+        <p></p>
+      <span class='textOpacity'>Grid Height:</span>
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        <p></p>
+      <span class='textOpacity'>Grid Width:</span>
+        <input type="number" id="inputWeight" name="width" min="1" value="1">
+        <p></p>
+        <input type="submit" id="submitButton">
+    </form>
+
+    <h2 class='textOpacity'>Pick A Color</h2>
+    <p></p>
+    <input type="color" id="colorPicker">
+
+    <h2 class='textOpacity'>Design Canvas</h2>
+    <p></p>
+
+    <table id="pixelCanvas"></table>
+
+
+    <script src="designs.js"></script>
+</body>
+</html>

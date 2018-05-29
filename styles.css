@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+}
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: Trebuchet MS;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#submitButton {
+  background-color: black;
+  font-size: 20px;
+  border: outset #ccc;
+  color: white;
+  border-radius: 20px;
+  font-family: Trebuchet MS;
+  cursor: pointer;
+  outline: none;
+  transition: color 500ms ease;
+  opacity: 0.9;
+}
+#submitButton:hover {
+  background-color: #30c7ff;
+  color: black;
+}
+
+#inputHeight, #inputWeight {
+  border-radius: 12px;
+  border: inset;
+  border-color: #ccc;
+}
+#colorPicker {
+  border: 2px outset black ;
+  background-color: #FFFFFF;
+  height: 45px;
+  border-radius: 100%;
+  width: 45px;
+  cursor: pointer;
+  outline: none;
+  transition: border 500ms ease
+}
+#colorPicker:hover {
+  border: 6px outset black;
+}
+#sizePicker {
+  font-family:Trebuchet MS;
+}
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.table {
+  cursor: url('https://i.imgur.com/vqJfdV6.png'), pointer;
+  outline: outset 4px #ccc;
+}
+.gradient {
+  background-image: url('https://www.xmple.com/wallpaper/brown-highlight-gradient-white-linear-1920x1080-c2-deb887-ffffff-l-33-a-240-f-21.svg');
+}
+.one {
+  color: #E87300;
+  transition: color 200ms ease;
+}
+.one:hover {
+  color: yellow;
+}
+.two {
+  color: yellow;
+  transition: color 200ms ease;
+}
+.two:hover {
+  color: #62EE46;
+}
+.three {
+  color: #62EE46;
+  transition: color 200ms ease;
+}
+.three:hover {
+  color: cyan;
+}
+.four {
+  color: cyan;
+  transition: color 200ms ease;
+}
+.four:hover {
+  color: #464EEE;
+}
+.five {
+  color: #464EEE;
+  transition: color 200ms ease;
+}
+.five:hover {
+  color: magenta;
+}
+.six {
+  color: magenta;
+  transition: color 200ms ease;
+}
+.six:hover {
+  color: crimson;
+}
+.seven {
+  color: crimson;
+  transition: color 200ms ease;
+}
+.seven:hover {
+  color: #E87300;
+}
+.transition {
+  text-decoration: underline;
+  transition: color 1000ms ease;
+  color: #00E0FF;
+}
+.transition:hover {
+  color: #4DFF00;
+}
+#whiteColor {
+  background-color: rgb(255, 255, 255);
+}
+.textOpacity {
+  opacity: 0.7;
+}
